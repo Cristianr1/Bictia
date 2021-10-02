@@ -1,0 +1,194 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  margin: 20px;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
+
+body {
+  background: url("assets/background.jpg");
+  background-size: cover;
+}
+
+header {
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile_photo {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.large_text {
+  font-size: 1.5rem;
+}
+
+.change_line_height {
+  line-height: 1.7rem;
+}
+
+.paragraph {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+}
+
+#margin_education {
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: purple;
+}

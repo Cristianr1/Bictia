@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="icon"
+      href="https://img.icons8.com/plasticine/100/000000/bookmark-ribbon--v1.png"
+      type="image/x-icon"
+    />
+    <meta name="author" content="Cristian Romero" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta
+      name="description"
+      content="Basic web page, which presents a brief description of my personal information."
+    />
+    <title>Cristian Romero - About Me</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="font_bold large_text">CRISTIAN ROMERO</h1>
+        <img id="profile_photo" src="./assets/fma.webp" alt="Profile photo" />
+        <p class="paragraph change_line_height">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra
+          enim nec justo scelerisque, dapibus placerat leo sodales. Praesent vel
+          dui hendrerit, rutrum lacus id, iaculis odio. Donec non sagittis eros.
+          Praesent posuere molestie condimentum. Proin bibendum a nisi vitae
+          aliquam. Quisque odio est, congue ac ligula bibendum, euismod volutpat
+          urna. In blandit luctus blandit. Vivamus eu elit viverra, lobortis
+          risus sit amet, mollis sem. Quisque varius nisi arcu, sed euismod diam
+          auctor at.
+        </p>
+        <br>
+        <nav>
+          <a href="#brief" class="font_bold">Brief Description</a>
+          <a href="#resume" class="font_bold">Resume</a>
+          <a href="#tool" class="font_bold">Tools</a>
+        </nav>
+      </header>
+      <section>
+        <article id="brief">
+          <h2 class="large_text">Brief Description</h2>
+          <p class="paragraph">
+            Hello, my name is Cristian Romero, I am passionate about science,
+            technology and video games.
+          </p>
+          <br />
+          <form>
+            <label for="phone_number"
+              >Do you want me to contact you? Leave me your phone number</label
+            ><br /><br />
+            <input type="text" id="phone_number" /><br /><br />
+            <input type="submit" value="Send" />
+          </form>
+        </article>
+        <article id="resume">
+          <br /><br />
+          <h2 class="large_text font_bold add_margin_top">Resume</h2>
+          <br />
+          <div class="container">
+            <div>
+              <h3 class="font_bold">Experience</h3>
+              <br />
+              <p>May 2021 - Current</p>
+              <p>Wolox</p>
+              <p>React Native Developer</p>
+              <br />
+              <p>April 2019 - May 2021</p>
+              <p>Koiti</p>
+              <p>Junior Software Developer</p>
+              <br />
+              <p>January 2019 - July 2019</p>
+              <p>Palermo Superior College</p>
+              <p>Physics and Mathematics teacher</p>
+              <br />
+              <p>March 2018 - Nov. 2018</p>
+              <p>Institute Tecnisistemas</p>
+              <p>Physics and Mathematics teacher</p>
+            </div>
+            <div id="margin_education">
+              <h3 class="font_bold">Education</h3>
+              <br />
+              <p>April 2019</p>
+              <p>District University Francisco José de Caldas</p>
+              <p>Bachelor of Physics</p>
+            </div>
+          </div>
+          <br /><br />
+        </article>
+        <article id="tool">
+          <h2 class="large_text font_bold add_margin_top">Tools</h2>
+          <br />
+          <ul class="change_line_height">
+            <li><span class="dot"></span> Physics</li>
+            <li><span class="dot"></span> Python</li>
+            <li><span class="dot"></span> Math</li>
+            <li><span class="dot"></span> React Native</li>
+            <li><span class="dot"></span> Javascript</li>
+            <li><span class="dot"></span> HTML/CSS</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
