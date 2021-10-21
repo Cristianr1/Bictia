@@ -1,4 +1,4 @@
-exports.data = [
+export default [
     {
         "colegio": {
             "primaria": [

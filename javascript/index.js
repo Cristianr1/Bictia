@@ -1,11 +1,11 @@
-const {
+import {
     obtenerEtapaEducativa,
     obtenerGrado,
     obtenerCurso,
     reducer,
     calcularMediana,
     calcularModa
-} = require('./utils');
+} from './utils.js';
 
 
 /**
@@ -25,7 +25,7 @@ function totalEstudiantesEtapa(etapaEducativa) {
  * Adiciona el total de estudiantes de las dos etapas educativas (primaria y secundaria)
  * @returns {number} número total de estudiantes en el Colegio
  */
-function totalEstudiantesColegio() {
+export function totalEstudiantesColegio() {
     return totalEstudiantesEtapa('primaria') + totalEstudiantesEtapa('secundaria');
 }
 
@@ -335,6 +335,7 @@ function mejorPromedioColegio() {
     return mejorPromedioSecundaria
 }
 
+/*
 console.log(`La cantidad total de estudiantes que hay en el colegio es: ${totalEstudiantesColegio()}`);
 console.log(`La cantidad total de estudiantes que hay en primaria es: ${totalEstudiantesEtapa('primaria')}`);
 console.log(`La cantidad total de estudiantes que hay en secundaria es: ${totalEstudiantesEtapa('secundaria')}`);
@@ -365,3 +366,6 @@ console.log(`El estudiante con mejor nota en promedio en el grado (grado segundo
 console.log(`El estudiante con mejor nota en promedio en primaria: ${mejorPromedioEtapa('primaria').nombre}`);
 console.log(`El estudiante con mejor nota en promedio en bachillerato: ${mejorPromedioEtapa('secundaria').nombre}`);
 console.log(`El estudiante con mejor nota en promedio en el colegio: ${mejorPromedioColegio().nombre}`);
+*/
+
+

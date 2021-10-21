@@ -1,13 +1,5 @@
 # Tarea 3
 
-Guía para emplear las funciones del archivo `index.js`.
-
-En consola ejecutar:
-
-```js
-node index.js
-```
-
-O agregar `javascript/index.js` en un `index.html`
-
 Cada función cuenta con una respectiva documentación, la cual se encuentra embebida en el código.
+
+Para observar la solución de cada uno de los puntos, se deben descomentar los `console.log()` del archivo `index.js`.

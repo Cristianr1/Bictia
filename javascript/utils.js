@@ -1,6 +1,6 @@
-const data = require('./data');
+import data from './data.js';
 
-const { primaria, secundaria } = data.data[0].colegio;
+const { primaria, secundaria } = data[0].colegio;
 
 function obtenerEtapaEducativa(etapaEducativa) {
     let etapa = null;
@@ -71,4 +71,4 @@ function calcularMediana(notas) {
     return modas;
 }
 
-module.exports = { obtenerEtapaEducativa, obtenerGrado, obtenerCurso, reducer, calcularMediana, calcularModa }
+export { obtenerEtapaEducativa, obtenerGrado, obtenerCurso, reducer, calcularMediana, calcularModa };
